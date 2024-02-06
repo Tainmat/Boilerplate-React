@@ -4,7 +4,9 @@ import { texte } from '@/Pages/texte'
 export function App() {
   return (
     <BrowserRouter>
-      <div>Hello mundo</div>
+      <div>
+        <div>hello</div>
+      </div>
     </BrowserRouter>
   )
 }
