@@ -1,4 +1,4 @@
-function teste() {
+export function teste() {
   return (
     <div>
       <div>
