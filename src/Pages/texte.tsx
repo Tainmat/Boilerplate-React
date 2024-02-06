@@ -1,3 +1,7 @@
 function teste() {
-  return <div>hello</div>
+  return (
+    <div>
+      <div>hello</div>
+    </div>
+  )
 }
