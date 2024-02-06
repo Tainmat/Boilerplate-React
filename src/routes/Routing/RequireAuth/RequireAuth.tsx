@@ -6,7 +6,7 @@ import { useAuthContext } from '@/contexts/Auth'
 import { useToastContext } from '@/contexts/Toast'
 import { useAuthRoles } from '@/hooks/Rules/Auth/useRoles'
 
-import { ROUTE_HOME, ROUTE_WELCOME } from 'routes/Pages/Pages.paths'
+import { ROUTE_HOME, ROUTE_WELCOME } from '@/routes/Pages/Pages.paths'
 
 interface Props {
   allowedRoles?: string[]

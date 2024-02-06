@@ -9,6 +9,7 @@ import { Loader } from '@/components/Core/Loader'
 import { NotFound } from '@/pages/Errors/NotFound'
 
 import { routes } from '../Pages/Pages.routes'
+
 import { RequireAuth } from './RequireAuth'
 
 export function Routing() {
