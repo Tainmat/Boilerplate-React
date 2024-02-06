@@ -1,7 +1,9 @@
 function teste() {
   return (
     <div>
-      <div>hello</div>
+      <div>
+        <div>teste</div>
+      </div>
     </div>
   )
 }
