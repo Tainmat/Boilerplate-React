@@ -2,13 +2,7 @@ import { lazy } from 'react'
 
 import { IRouteProps } from '../routes.interface'
 
-import { ROUTE_HOME, ROUTE_WELCOME } from './Pages.paths'
-
-const Welcome = lazy(() =>
-  import('@/pages/Welcome').then(module => ({
-    default: module.Welcome
-  }))
-)
+import { ROUTE_HOME } from './Pages.paths'
 
 const Home = lazy(() =>
   import('@/pages/Home').then(module => ({
@@ -17,11 +11,6 @@ const Home = lazy(() =>
 )
 
 const mainRoutes: IRouteProps[] = [
-  {
-    path: ROUTE_WELCOME,
-    component: Welcome,
-    isPrivate: false
-  },
   {
     path: ROUTE_HOME,
     component: Home,
